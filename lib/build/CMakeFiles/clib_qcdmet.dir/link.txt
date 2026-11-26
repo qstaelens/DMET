@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC  -fopenmp -O3 -DNDEBUG -shared -Wl,-soname,libqcdmet.so -o ../libqcdmet.so CMakeFiles/clib_qcdmet.dir/rhf_response.cc.o  -lopenblas -lopenblas -lstdc++ -lm 

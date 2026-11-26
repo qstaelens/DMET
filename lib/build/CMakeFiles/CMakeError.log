@@ -1,0 +1,31 @@
+Performing C++ SOURCE FILE Test HAS_XHOST failed with the following output:
+Change Dir: /home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f986/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f986.dir/build.make CMakeFiles/cmTC_2f986.dir/build
+gmake[1]: Entering directory '/home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f986.dir/src.cxx.o
+/usr/bin/g++ -DHAS_XHOST  -fopenmp    -xHost -o CMakeFiles/cmTC_2f986.dir/src.cxx.o -c /home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: language Host not recognized
+g++: error: language Host not recognized
+gmake[1]: *** [CMakeFiles/cmTC_2f986.dir/build.make:78: CMakeFiles/cmTC_2f986.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_2f986/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_IPO failed with the following output:
+Change Dir: /home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3bda1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3bda1.dir/build.make CMakeFiles/cmTC_3bda1.dir/build
+gmake[1]: Entering directory '/home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3bda1.dir/src.cxx.o
+/usr/bin/g++ -DHAS_IPO  -fopenmp -march=native    -ipo -o CMakeFiles/cmTC_3bda1.dir/src.cxx.o -c /home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp/src.cxx
+g++: error: unrecognized command-line option '-ipo'
+gmake[1]: *** [CMakeFiles/cmTC_3bda1.dir/build.make:78: CMakeFiles/cmTC_3bda1.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/qstaelens/DMET/lib/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3bda1/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

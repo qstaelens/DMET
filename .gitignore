@@ -1,0 +1,11 @@
+output/
+.vscode/
+__pycache__/
+*.pyc
+*.sif
+*.h5
+*.hdf5
+*.chk
+*.npy
+*.npz
+.env
